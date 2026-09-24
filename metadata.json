@@ -1,0 +1,6 @@
+{
+  "name": "Flipper Zap",
+  "description": "Automação de vendas para WhatsApp Business via WhatsApp Web: follow-up programado 24h com calendário, autoatendimento e chatbot de gatilhos, respostas rápidas de vendas, áudios gravados na hora e banco de mídias.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

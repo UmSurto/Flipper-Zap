@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+/* ============================================================
+ * TEMAS DO FLIPPER ZAP:
+ * 1. rodar no white: Acinzentado com branco e prateados
+ * 2. rodar no black: Escuro Black premium colors
+ * 3. VORCARUS: Tons de vermelho carmesim / rubi
+ * ============================================================ */
+
+/* BASE RESET / DEFAULT */
+body {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* 1. TEMA: RODAR NO WHITE (Acinzentado com branco e prateados) */
+.theme-white {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+.theme-white .bg-slate-950 {
+  background-color: #f1f5f9 !important;
+}
+.theme-white .bg-slate-900,
+.theme-white .bg-slate-900\/95,
+.theme-white .bg-slate-900\/90,
+.theme-white .bg-slate-900\/80,
+.theme-white .bg-slate-900\/70,
+.theme-white .bg-slate-900\/60,
+.theme-white .bg-slate-900\/40,
+.theme-white .bg-slate-900\/20 {
+  background-color: #ffffff !important;
+}
+.theme-white .bg-slate-950\/70,
+.theme-white .bg-slate-950\/80 {
+  background-color: #f8fafc !important;
+}
+.theme-white .bg-slate-800,
+.theme-white .bg-slate-800\/60,
+.theme-white .bg-slate-800\/80 {
+  background-color: #f1f5f9 !important;
+}
+.theme-white .border-slate-800,
+.theme-white .border-slate-800\/80,
+.theme-white .border-slate-800\/60,
+.theme-white .border-slate-800\/40,
+.theme-white .border-slate-700,
+.theme-white .border-slate-700\/60 {
+  border-color: #cbd5e1 !important;
+}
+.theme-white .text-white {
+  color: #0f172a !important;
+}
+.theme-white .text-slate-100 {
+  color: #1e293b !important;
+}
+.theme-white .text-slate-200 {
+  color: #334155 !important;
+}
+.theme-white .text-slate-300 {
+  color: #475569 !important;
+}
+.theme-white .text-slate-400 {
+  color: #64748b !important;
+}
+.theme-white .text-slate-500 {
+  color: #94a3b8 !important;
+}
+.theme-white input,
+.theme-white textarea,
+.theme-white select {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+.theme-white input::placeholder,
+.theme-white textarea::placeholder {
+  color: #94a3b8 !important;
+}
+.theme-white .bg-emerald-950\/40,
+.theme-white .bg-emerald-950\/60 {
+  background-color: #ecfdf5 !important;
+}
+.theme-white .bg-amber-950\/30,
+.theme-white .bg-amber-950\/40 {
+  background-color: #fffbeb !important;
+}
+
+/* 2. TEMA: RODAR NO BLACK (Escuro Black premium colors) */
+.theme-black {
+  background-color: #050507 !important;
+  color: #f4f4f5 !important;
+}
+.theme-black .bg-slate-950 {
+  background-color: #050507 !important;
+}
+.theme-black .bg-slate-900,
+.theme-black .bg-slate-900\/95,
+.theme-black .bg-slate-900\/90,
+.theme-black .bg-slate-900\/80 {
+  background-color: #0f0f13 !important;
+}
+.theme-black .bg-slate-800 {
+  background-color: #18181f !important;
+}
+.theme-black .border-slate-800,
+.theme-black .border-slate-700 {
+  border-color: #272730 !important;
+}
+
+/* 3. TEMA: VORCARUS (Tons de vermelho / carmesim / rubi) */
+.theme-vorcarus {
+  background-color: #0c0205 !important;
+  color: #fff1f2 !important;
+}
+.theme-vorcarus .bg-slate-950 {
+  background-color: #0c0205 !important;
+}
+.theme-vorcarus .bg-slate-900,
+.theme-vorcarus .bg-slate-900\/95,
+.theme-vorcarus .bg-slate-900\/90,
+.theme-vorcarus .bg-slate-900\/80,
+.theme-vorcarus .bg-slate-900\/70,
+.theme-vorcarus .bg-slate-900\/60,
+.theme-vorcarus .bg-slate-900\/40 {
+  background-color: #170409 !important;
+}
+.theme-vorcarus .bg-slate-950\/70,
+.theme-vorcarus .bg-slate-950\/80 {
+  background-color: #110206 !important;
+}
+.theme-vorcarus .bg-slate-800,
+.theme-vorcarus .bg-slate-800\/60,
+.theme-vorcarus .bg-slate-800\/80 {
+  background-color: #260710 !important;
+}
+.theme-vorcarus .border-slate-800,
+.theme-vorcarus .border-slate-800\/80,
+.theme-vorcarus .border-slate-800\/60,
+.theme-vorcarus .border-slate-800\/40,
+.theme-vorcarus .border-slate-700,
+.theme-vorcarus .border-slate-700\/60 {
+  border-color: #4a0f1d !important;
+}
+.theme-vorcarus .text-emerald-400 {
+  color: #fb7185 !important;
+}
+.theme-vorcarus .text-emerald-500 {
+  color: #f43f5e !important;
+}
+.theme-vorcarus .bg-emerald-600 {
+  background-color: #e11d48 !important;
+}
+.theme-vorcarus .bg-emerald-500 {
+  background-color: #f43f5e !important;
+}
+.theme-vorcarus .hover\:bg-emerald-500:hover {
+  background-color: #fb7185 !important;
+}
+.theme-vorcarus .hover\:bg-emerald-600:hover {
+  background-color: #e11d48 !important;
+}
+.theme-vorcarus .border-emerald-500\/30,
+.theme-vorcarus .border-emerald-500\/40,
+.theme-vorcarus .border-emerald-500\/50 {
+  border-color: rgba(244, 63, 94, 0.4) !important;
+}
+.theme-vorcarus .bg-emerald-500\/10,
+.theme-vorcarus .bg-emerald-500\/15,
+.theme-vorcarus .bg-emerald-500\/20 {
+  background-color: rgba(225, 29, 72, 0.2) !important;
+}
+.theme-vorcarus .bg-emerald-950\/40,
+.theme-vorcarus .bg-emerald-950\/60 {
+  background-color: #290812 !important;
+}
+.theme-vorcarus .shadow-emerald-500\/20,
+.theme-vorcarus .shadow-emerald-500\/30 {
+  box-shadow: 0 10px 25px -5px rgba(225, 29, 72, 0.3) !important;
+}
+.theme-vorcarus input,
+.theme-vorcarus textarea,
+.theme-vorcarus select {
+  background-color: #1a050b !important;
+  border-color: #4a0f1d !important;
+  color: #fff1f2 !important;
+}
